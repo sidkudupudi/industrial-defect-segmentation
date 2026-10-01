@@ -1,0 +1,18 @@
+case,category,defect,detections,predicted_classes,max_confidence,category_correct,mask_iou,gt_covered,verdict
+bottle_broken_small_017,bottle,broken_small,1,bottle,0.931641,True,0.6684479553903345,0.7057005494505495,located
+cable_bent_wire_006,cable,bent_wire,1,cable,0.913574,True,0.7932536893886156,0.8303256178893684,located
+capsule_squeeze_012,capsule,squeeze,1,capsule,0.717773,True,0.2913659150028424,0.5274260945490832,over-segmented
+carpet_metal_contamination_009,carpet,metal_contamination,1,carpet,0.925781,True,0.8390163256871255,0.8695652173913043,located
+grid_metal_contamination_004,grid,metal_contamination,1,grid,0.891113,True,0.7802494802494803,0.8547028011842405,located
+hazelnut_cut_008,hazelnut,cut,1,hazelnut,0.816406,True,0.7700022487069935,0.8096949633483093,located
+leather_fold_002,leather,fold,1,leather,0.637207,True,0.49517800811176205,0.4991822642195166,partly covered
+metal_nut_bent_023,metal_nut,bent,1,metal_nut,0.936523,True,0.6004831366719316,0.615875738517248,located
+pill_scratch_013,pill,scratch,1,pill,0.986816,True,0.8557822679321406,0.8776666101407495,located
+screw_thread_top_017,screw,thread_top,0,,,False,0.0,0.0,missed
+tile_glue_strip_015,tile,glue_strip,1,tile,0.971191,True,0.9806101419407274,0.9894850916759417,located
+toothbrush_defective_021,toothbrush,defective,1,toothbrush,0.921387,True,0.8860759493670886,0.9513023782559457,located
+transistor_bent_lead_008,transistor,bent_lead,2,"transistor, transistor",0.665527,True,0.10349097256313751,0.9922857665856019,over-segmented
+wood_liquid_001,wood,liquid,1,wood,0.900879,True,0.8523661594553369,0.8557808137308917,located
+zipper_fabric_border_013,zipper,fabric_border,1,zipper,0.911133,True,0.7772281378385176,0.8178209086898985,located
+hazelnut_good_013,hazelnut,good,1,hazelnut,0.605957,,,,false alarm
+screw_good_035,screw,good,0,,,,,,correct: no detection

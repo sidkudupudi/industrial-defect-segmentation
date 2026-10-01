@@ -1,0 +1,13 @@
+# Tested with Python 3.13, CUDA 13, RTX 5080 (16 GB).
+ultralytics>=8.4          # YOLO11-seg training, tuning, export
+torch>=2.8
+torchvision>=0.23
+opencv-python>=4.10
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+pillow>=10.0
+pyyaml>=6.0
+onnx>=1.17
+onnxslim>=0.1
+# C++ app (cpp/trt_seg_inference): TensorRT 10/11 dev headers + libnvinfer, CUDA toolkit, OpenCV C++ (libopencv-dev), CMake >= 3.10

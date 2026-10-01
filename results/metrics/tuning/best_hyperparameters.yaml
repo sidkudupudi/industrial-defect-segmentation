@@ -1,0 +1,31 @@
+# 20/20 iterations complete (2/20 succeeded) ⚠️ (4161.87s)
+# Results saved to runs/segment/tune-2
+# Best fitness=0.67766 observed at iteration 2
+# Best fitness metrics are {'metrics/precision(B)': 0.63283, 'metrics/recall(B)': 0.52633, 'metrics/mAP50(B)': 0.59194, 'metrics/mAP50-95(B)': 0.35439, 'metrics/precision(M)': 0.62106, 'metrics/recall(M)': 0.5446, 'metrics/mAP50(M)': 0.58351, 'metrics/mAP50-95(M)': 0.32327, 'val/box_loss': 1.39113, 'val/seg_loss': 2.32284, 'val/cls_loss': 1.95605, 'val/dfl_loss': 1.80311, 'val/sem_loss': 0.0, 'fitness': 0.67766}
+# Best fitness model is runs/segment/tune-2/weights
+lr0: 0.01
+lrf: 0.01
+momentum: 0.926
+weight_decay: 0.001
+warmup_epochs: 3.83432
+warmup_momentum: 0.90202
+box: 7.48904
+cls: 0.49083
+cls_pw: 0.00516
+dfl: 1.50357
+hsv_h: 0.0151
+hsv_s: 0.9
+hsv_v: 0.39773
+degrees: 0.00083
+translate: 0.10395
+scale: 0.49943
+shear: 0.00316
+perspective: 0.0
+flipud: 0.00156
+fliplr: 0.49542
+bgr: 0.0006
+mosaic: 0.99733
+mixup: 0.00224
+cutmix: 0.0
+copy_paste: 0.01008
+close_mosaic: 10
